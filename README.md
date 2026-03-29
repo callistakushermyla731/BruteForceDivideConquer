@@ -1,0 +1,5 @@
+Pertanyaan 5.2
+1. bagian if berfungsi sebagai base case untuk menghentikan rekursi ketika nilai sudah mencapai kondisi tertentu (misalnya n = 1). Sedangkan bagian else berfungsi sebagai recursive case yang digunakan untuk memecah masalah dengan memanggil fungsi kembali menggunakan nilai yang lebih kecil (n-1).
+2. modifikasi.
+3. fakto *= i; digunakan pada metode iteratif (Brute Force) dengan perulangan, di mana nilai fakto dikalikan secara bertahap dengan nilai i dalam loop. Sedangkan int fakto = n * faktorialDC(n-1); digunakan pada metode rekursif (Divide and Conquer), di mana nilai faktorial dihitung dengan memanggil fungsi itu sendiri dengan nilai yang lebih kecil (n-1) hingga mencapai kondisi dasar.
+4. faktorialBF() menggunakan pendekatan iteratif (Brute Force) dengan perulangan untuk menghitung faktorial secara bertahap dari 1 hingga n. Sedangkan faktorialDC() menggunakan pendekatan rekursif (Divide and Conquer) dengan memanggil fungsi itu sendiri menggunakan nilai yang lebih kecil hingga mencapai kondisi dasar. Dengan demikian, faktorialBF() bekerja dengan loop, sedangkan faktorialDC() bekerja dengan rekursi.
