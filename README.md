@@ -17,3 +17,12 @@ int pangkatBF() {
 }
 method menjadi lebih sederhana karena tidak perlu menerima input lagi, cukup menggunakan data yang sudah ada di dalam objek.
 4. pangkatBF() menggunakan pendekatan iteratif (Brute Force) dengan melakukan perkalian berulang sebanyak nilai pangkat. Sedangkan pangkatDC() menggunakan pendekatan rekursif (Divide and Conquer), yaitu dengan membagi pangkat menjadi dua bagian lalu menggabungkan hasilnya kembali. Dengan demikian, pangkatBF() bekerja secara sederhana dengan perulangan, sedangkan pangkatDC() lebih efisien karena mengurangi jumlah operasi melalui rekursi.
+
+Pertanyaan 5.4
+1. untuk membagi array menjadi dua bagian dalam algoritma Divide and Conquer. Dengan adanya mid, data dapat dipecah menjadi bagian kiri (l sampai mid) dan bagian kanan (mid+1 sampai r).
+2. digunakan untuk menghitung jumlah pada masing-masing bagian hasil pembagian (divide). lsum = menghitung total bagian kiri array (dari l sampai mid). rsum = menghitung total bagian kanan array (dari mid+1 sampai r).
+3. untuk menggabungkan hasil perhitungan dari dua sub-array sehingga menghasilkan total akhir.
+4. if (l == r) {
+    return arr[l];
+}
+5. method totalDC() bekerja dengan pendekatan Divide and Conquer, yaitu membagi array menjadi dua bagian secara rekursif hingga mencapai base case. Setiap bagian kemudian dihitung totalnya secara terpisah, lalu hasilnya digabungkan kembali dengan penjumlahan. Dengan cara ini, totalDC() menyelesaikan perhitungan secara bertahap dari masalah kecil hingga menjadi total keseluruhan array.
